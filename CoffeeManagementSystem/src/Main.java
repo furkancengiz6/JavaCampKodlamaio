@@ -6,7 +6,7 @@ import Mernis.MernisService;
 public class Main {
 
 	public static void main(final String[] args) {
-		final Customer customer = new Customer(1, "FARUK", "CENG›Z", 1961, "49216182452");
+		final Customer customer = new Customer(1, "FARUK", "CENG√ùZ", 1961, "49216182435");
 		final BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisService());
 		customerManager.Save(customer);
 		// final Customer customer = new
